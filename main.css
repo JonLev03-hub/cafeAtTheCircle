@@ -189,6 +189,10 @@ a {
     left: 5vw;
     display: none;
   }
+  .navList li a {
+    display: inline-block;
+    width:100%;
+  }
   .navHamburger {
     display: block;
   }
