@@ -5,26 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Café at the Circle</title>
     <link rel="stylesheet" href="./index.css" />
-    <link rel="icon" type="image/x-icon" href="/SmallLogo.webp" />
+    <link rel="icon" type="image/x-icon" href="/images/SmallLogo.webp" />
   </head>
   <body>
     <div class="nav">
       <div class="navContainer left">
-        <img src="/logosidebyside.webp" alt="Cafe at the circle logo" />
+        <a href="/">
+          <img
+            src="/images/logosidebyside.webp"
+            alt="Cafe at the circle logo"
+          />
+        </a>
       </div>
       <div class="navContainer center">
-        <img
-          src="hamburger-button.svg"
-          alt="hamburgerButton"
-          class="navHamburger"
-        />
-        <ul class="navList">
+        <button onclick="navButton()" class="navHamburger">
+          <img
+            src="/images/hamburger-button.svg"
+            alt="hamburgerButton"
+            class="navHamburgerImg"
+          />
+        </button>
+        <ul class="navList" id="navList">
           <li class="selected"><a href="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Menu</a></li>
           <li><a href="">Find Us</a></li>
           <li><a href="">Local Merchandise</a></li>
         </ul>
+        <div class="backdrop"></div>
       </div>
       <div class="navContainer right">
         <div class="mediaContainer">
@@ -37,7 +45,7 @@
     </div>
     <div class="backgroundContainer">
       <img
-        src="/cafestorefrontEdit1.webp"
+        src="/images/cafestorefrontEdit1.webp"
         alt="Photo of the front of the café"
         class="backgroundImg"
       />
@@ -45,7 +53,7 @@
     </div>
     <div class="cardDeck">
       <div class="card">
-        <img src="drink1.webp" alt="drink example" />
+        <img src="images/drink1.webp" alt="drink example" />
         <div class="overlay">
           <h2>Drink Name</h2>
           <p>
@@ -57,7 +65,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="drink1.webp" alt="drink example" />
+        <img src="images/drink1.webp" alt="drink example" />
         <div class="overlay">
           <h2>Drink Name</h2>
           <p>
@@ -69,7 +77,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="drink1.webp" alt="drink example" />
+        <img src="images/drink1.webp" alt="drink example" />
         <div class="overlay">
           <h2>Drink Name</h2>
           <p>
@@ -90,11 +98,13 @@
         >
       </div>
       <div class="footerContainer">
-        <img
-          class="footerLogo"
-          src="/squareLogo.webp"
-          alt="Logo for Café at the Circle"
-        />
+        <a href="#">
+          <img
+            class="footerLogo"
+            src="/images/squareLogo.webp"
+            alt="Logo for Café at the Circle"
+          />
+        </a>
       </div>
       <div class="footerContainer">
         <h3>Hours:</h3>
@@ -148,5 +158,6 @@
         >
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
