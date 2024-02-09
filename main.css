@@ -11,6 +11,7 @@ body {
   background-color: rgba(248, 250, 229, 0.8);
   max-width: 100vw;
   overflow-x: hidden;
+  padding-top: 80px;
 }
 h1,
 h2,
@@ -18,6 +19,10 @@ h3,
 h4 {
   font-weight: 400;
   margin-bottom: 5px;
+}
+p,
+span {
+  line-height: 1.5;
 }
 span,
 a {
@@ -191,7 +196,7 @@ a {
   }
   .navList li a {
     display: inline-block;
-    width:100%;
+    width: 100%;
   }
   .navHamburger {
     display: block;

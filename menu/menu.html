@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café at the Circle</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./menu.css" />
+    <link rel="icon" type="image/x-icon" href="../images/SmallLogo.webp" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navContainer left">
+        <a href="../index.html">
+          <img
+            src="../images/logosidebyside.webp"
+            alt="Cafe at the circle logo"
+          />
+        </a>
+      </div>
+      <div class="navContainer center">
+        <button onclick="navButton()" class="navHamburger">
+          <img
+            src="../images/hamburger-button.svg"
+            alt="hamburgerButton"
+            class="navHamburgerImg"
+          />
+        </button>
+        <div class="backdrop" id="navBackdrop"></div>
+        <ul class="navList" id="navList">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li class="selected"><a href="../menu/menu.html">Menu</a></li>
+          <li><a href="../findus/findus.html">Find Us</a></li>
+        </ul>
+      </div>
+      <div class="navContainer right">
+        <div class="mediaContainer">
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <section class="top">
+        <h1>Café At The Circle</h1>
+        <h2>"Coffee and Vibe"</h2>
+        <h2>Menu</h2>
+      </section>
+      <section class="mainMenu">
+        <div class="container">
+          <h3>Hot Kreations</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Carmel Macchiatto</td>
+              <td>$5.29</td>
+            </tr>
+            <tr>
+              <td>Kemet Me</td>
+              <td>$5.49</td>
+            </tr>
+            <tr>
+              <td>Juana-Be-Smooth</td>
+              <td>$5.49</td>
+            </tr>
+            <tr>
+              <td>Mocha Goddess</td>
+              <td>$5.49</td>
+            </tr>
+            <tr>
+              <td>Cappuccino</td>
+              <td>$4.79</td>
+            </tr>
+            <tr>
+              <td>Americano</td>
+              <td>$4.29</td>
+            </tr>
+            <tr>
+              <td>Hot Choclate</td>
+              <td>$3.85</td>
+            </tr>
+            <tr>
+              <td>Classic Coffee</td>
+              <td>$4.29</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <h3>Cold Kreations</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Smoothie</td>
+              <td>$6.55</td>
+            </tr>
+            <tr>
+              <td>Caramel Creme Frappe</td>
+              <td>$5.89</td>
+            </tr>
+            <tr>
+              <td>Iced Mocha Goddess</td>
+              <td>$5.89</td>
+            </tr>
+            <tr>
+              <td>Blueberry Lemon Refresher (Iced)</td>
+              <td>$5.49</td>
+            </tr>
+            <tr>
+              <td>Homemade Lemonade</td>
+              <td>$5.55</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <h3>What's Your Tea</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Raspberry Hibiscus</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Honey Lemon</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Earl Grey</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Black Tea</td>
+              <td>$4.00</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <h3>A La Carte</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Chicken Salad W/ Club Crackers</td>
+              <td>$5.97</td>
+            </tr>
+            <tr>
+              <td>Chicken Salad On Croissant</td>
+              <td>$6.89</td>
+            </tr>
+            <tr>
+              <td>Fresh Fruit</td>
+              <td>Varies</td>
+            </tr>
+            <tr>
+              <td>Spice and Herb Chunky Chicken Soup</td>
+              <td>$5.79</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <h3>Tasty Treats</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Cinnamon Roll</td>
+              <td>$4.50</td>
+            </tr>
+            <tr>
+              <td>Chocolate Chip Cookies</td>
+              <td>$2.95</td>
+            </tr>
+            <tr>
+              <td>Brownies</td>
+              <td>$3.25</td>
+            </tr>
+            <tr>
+              <td>Muffins</td>
+              <td>$3.69</td>
+            </tr>
+          </table>
+        </div>
+        <div class="container">
+          <h3>Add Ons</h3>
+          <table class="menuTable">
+            <tr>
+              <td>Expresso Shot</td>
+              <td>$1.99</td>
+            </tr>
+            <tr>
+              <td>Flavor Syrup</td>
+              <td>$0.60</td>
+            </tr>
+            <tr>
+              <td>Lemon & Honey</td>
+              <td>$0.75</td>
+            </tr>
+            <tr>
+              <td>Whip Toppings</td>
+              <td>$0.50</td>
+            </tr>
+            <tr>
+              <td>Almond/Oat Milk</td>
+              <td>$0.75</td>
+            </tr>
+            <tr>
+              <td>Add Fruit</td>
+              <td>$0.00</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </div>
+    <span class="fullMenu"
+      ><a href="../images/menu.webp">Click to view the full Menu</a></span
+    >
+    <div class="footer">
+      <div class="footerContainer centerText">
+        <h3>Location</h3>
+        <span
+          >Circle Centre Mall, 49 West Maryland Street, Indianapolis, IN
+          46204</span
+        >
+      </div>
+      <div class="footerContainer">
+        <a href="#">
+          <img
+            class="footerLogo"
+            src="../images/squareLogo.webp"
+            alt="Logo for Café at the Circle"
+          />
+        </a>
+      </div>
+      <div class="footerContainer">
+        <h3>Hours:</h3>
+        <table>
+          <tr>
+            <td>Monday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Tuesday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Thursday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Friday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Saturday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+          <tr>
+            <td>Sunday:</td>
+            <td>9:00AM - 5:00PM</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footerContainer">
+        <a href="">Contact Forum</a>
+        <span>cafeatthecircle@yahoo.com</span>
+        <span>317-317-3173</span>
+      </div>
+      <div class="footerContainer">
+        <div class="mediaContainer">
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+          <a href="" class="media"><span class="fakeMedia"></span></a>
+        </div>
+      </div>
+      <div class="footerContainer">
+        <a href="https://abstractstudent.com/" class="smallLink"
+          >Created By: Jonathan Leverenz</a
+        >
+      </div>
+    </div>
+    <script src="../main.js"></script>
+    <script src="./menu.js"></script>
+  </body>
+</html>
