@@ -16,6 +16,7 @@
   h1,
   h3 {
     border: 3px solid #753c11;
+    border-style: solid;
   }
   h1 {
     font-size: 48px;
