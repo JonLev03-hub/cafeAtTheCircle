@@ -3,34 +3,34 @@
   min-height: 20px;
   margin: auto;
   padding: 50px 0px;
-
-  h1,
-  h2,
-  h3 {
-    letter-spacing: 0.25rem;
-    text-align: center;
-    width: fit-content;
-  }
-  h1,
-  h3 {
-    background-color: grey;
-    padding: 2px;
-    border: 3px solid #753c11;
-    border-style: solid;
-  }
-  h1 {
-    font-size: 48px;
-    padding: 5px 75px;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  h3 {
-    font-size: 26px;
-    width: 100%;
-    padding: 6px 0;
-  }
 }
+.menu h1,
+.menu h2,
+.menu h3 {
+  letter-spacing: 0.25rem;
+  text-align: center;
+  width: fit-content;
+}
+.menu h1,
+.menu h3 {
+  background-color: grey;
+  padding: 2px;
+  border: 3px solid #753c11;
+  border-style: solid;
+}
+.menu h1 {
+  font-size: 48px;
+  padding: 5px 75px;
+}
+.menu h2 {
+  font-size: 32px;
+}
+.menu h3 {
+  font-size: 26px;
+  width: 100%;
+  padding: 6px 0;
+}
+
 .top {
   width: 80%;
   margin: auto;
