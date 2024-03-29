@@ -4,4 +4,44 @@
   /* background-color: red; */
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 50px;
+}
+.locationDiv {
+  max-width: 350px;
+}
+
+form {
+  background-color: rgb(117, 60, 17, 0.1);
+  border: 2px solid #753c11;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  min-width: fit-content;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(248, 250, 229);
+  border: 2px solid #753c11;
+  outline: none;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+form button {
+  border: 2px solid #753c11;
+  background-color: rgba(248, 250, 229);
+
+  border-radius: 3px;
+  padding: 5px 40px;
+  font-size: 1.1rem;
 }
